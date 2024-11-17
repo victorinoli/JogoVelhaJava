@@ -1,6 +1,6 @@
 public class Jogo {
 
-    private int[] jogos = {11,11,11,11,11};
+    private final int[] jogos = {11,11,11,11,11};
     private char player;
     private final int[][] jogosPossiveis = {{1,2,3},{4,5,6},{7,8,9},
                                             {1,4,7},{2,5,8},{3,6,9},
@@ -9,9 +9,6 @@ public class Jogo {
 
     public Jogo() {}
 
-    public Jogo(char player) {
-        this.player = player;
-    }
 
     public void setPlayer(char player) {
         this.player = player;

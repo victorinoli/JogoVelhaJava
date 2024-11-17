@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Grade {
 
-    private char[] jogos = new char[9];
+    private final char[] jogos = new char[9];
 
     public void zeraJogos() {
 
@@ -17,9 +17,9 @@ public class Grade {
                           "  %c | %c | %c%n" +
                           "-------------%n" +
                           "  %c | %c | %c\n",
-                                                jogos[0],jogos[1],jogos[2],
+                                                jogos[6],jogos[7],jogos[8],
                                                 jogos[3],jogos[4],jogos[5],
-                                                jogos[6],jogos[7],jogos[8]);
+                                                jogos[0],jogos[1],jogos[2]);
     }
 
     public void jogar(int local, char player) {
